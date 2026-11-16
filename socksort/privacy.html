@@ -5,13 +5,14 @@
 <style>body{font:16px/1.6 system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1rem}a{color:#0b57d0}code{background:#eee;padding:0 .2em;border-radius:3px}</style>
 </head><body>
 <h1>Privacy Policy - Sock Sort: Laundry Day</h1>
-<p><em>Last updated: 2026-10-08</em></p>
+<p><em>Last updated: 2026-11-16</em></p>
 <p>Sock Sort: Laundry Day ("the game") is a puzzle game for Android. This policy explains what information is handled when you play.</p>
 <p>Publisher: Ranveer Singh Sidhu - Contact: dev.ranveersinghsidhu@gmail.com - Policy URL: https://ranveersidhu.github.io/socksort/privacy.html</p>
 <h2>The short version</h2>
 <ul>
 <li>The game has no accounts, no sign-in, and no servers of ours. Your progress is stored <strong>only on your device</strong>.</li>
 <li>The game shows ads provided by <strong>Google AdMob</strong>, which collects and uses some device data to serve ads. In regions where the law requires it, you are asked for consent first and can change your choice at any time (Settings &gt; Privacy &amp; ad choices).</li>
+<li>The game uses <strong>Firebase Analytics</strong> (Google) for anonymous gameplay statistics, only after any required consent.</li>
 <li>Purchases are handled by <strong>Google Play</strong>. We never see your payment details.</li>
 <li>The game is intended for players aged <strong>13 and over</strong> and is not directed at children.</li>
 </ul>
@@ -37,13 +38,16 @@
 <p>Occasionally, after you finish a level, the game may ask Google Play to show its standard rating/review sheet. That sheet is provided and handled entirely by Google Play; the game does not receive your rating or review, does not collect anything for it, and does not reward or require it.</p>
 <h2>Purchases (Google Play Billing)</h2>
 <p>In-app purchases ("Remove Ads", booster packs) are processed by Google Play. Google handles your payment information under its own policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. The game only receives confirmation that a purchase succeeded (product id and a purchase token), which it stores locally to avoid granting the same purchase twice and to restore it if you reinstall.</p>
+<h2>Analytics (Firebase Analytics)</h2>
+<p>The game uses Google Firebase Analytics to understand how the game is played and to improve it. It records anonymous events such as which level was started, completed or failed, how many moves were used, which booster was used, and which type of ad (rewarded or interstitial) was shown, plus automatic events (first open, sessions, app version, device model, OS version, country/region, language) and a random app-instance identifier. It may also use the Android advertising ID. We do not link this to your name or any account, and it does not include your progress file.</p>
+<p>Where consent is required (the EEA, the UK and similar regions), Firebase Analytics collects nothing until you accept in the consent form; you can change this in <em>Settings &gt; Privacy &amp; ad choices</em>. Elsewhere it is on by default. Data is processed by Google: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>. You can also reset your advertising ID in Android <em>Settings &gt; Privacy &gt; Ads</em>.</p>
 <h2>Optional services (not in the current release)</h2>
-<p>If a later version turns on Firebase (Analytics, Crashlytics, Remote Config) it will collect anonymous gameplay events (for example which level was played or won, which booster was used), crash reports, and a random installation identifier, processed by Google, to fix crashes and tune difficulty and ads. If a later version offers Google Play Games sign-in, your Play Games player ID and a cloud copy of your game progress are stored by Google, only if you choose to sign in. This policy will be updated before either is released.</p>
+<p>If a later version offers Google Play Games sign-in, your Play Games player ID and a cloud copy of your game progress are stored by Google, only if you choose to sign in. If it adds crash reporting or remote configuration it will say so here first. This policy will be updated before either is released.</p>
 <h2>Other data</h2>
 <ul>
 <li>We do not collect names, e-mail addresses, contacts, photos, microphone, camera or precise location.</li>
 <li>The game requests these Android permissions: <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> (to load ads and purchases), <code>VIBRATE</code> (haptics), <code>WAKE_LOCK</code> (background ad tasks), <code>POST_NOTIFICATIONS</code> and <code>RECEIVE_BOOT_COMPLETED</code> (optional daily reminders, which you opt in to), the Google Play billing permission, and the advertising-ID permission used by AdMob.</li>
-<li>The game does not use analytics or crash-reporting SDKs of its own.</li>
+<li>Besides Firebase Analytics (above), the game uses no other analytics or crash-reporting SDKs.</li>
 </ul>
 <h2>Children</h2>
 <p>The game is not directed at children under 13 and we do not knowingly collect personal information from them. If you believe a child has used the game, contact us and we will help.</p>
